@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/torcidafla2.jpg);
+}
+
+.video-gols{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+
+.botao{
+    width: 7rem;
+    height: 3rem;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    border: none;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: 3s ease all;
+}
+
+.botao:hover{
+    color: red;
+    background-color: black;
+}
+
+.estatisticas{
+    border-radius: 10px;
+    border: red solid;
+    margin-top: 10px;
+    margin-left: 30%;
+
+}

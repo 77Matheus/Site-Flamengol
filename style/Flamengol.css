@@ -1,0 +1,325 @@
+:root{
+       --vermelho:#E50914;
+       --preta:#141414;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: var(--preta);
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+header .logo{
+    margin-left: 2px;
+    margin-bottom: 4%;
+    color: var(--vermelho);
+    font-family: 'Zen Tokyo Zoo';
+    font-size: 40px;
+}
+
+.card-escudo-img{
+    background-color: var(--preta);
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--vermelho);
+    margin-right: 10px;
+    font-family: "Zen Tokyo Zoo";
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+header nav a:hover{
+    color: #ffff;
+}
+
+.filme-principal{
+    font-size: 40px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.20)100%), url(/img/gre0x4fla.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.titulo{
+    margin-top: 10%;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+     background-color: var(--vermelho);
+     border: none;
+     color: white;
+
+     padding: 15px 20px;
+     margin-right: 10px;
+     font-size: 12px;
+     cursor: pointer;
+     transition: 3s ease all;
+}
+
+.botao:hover{
+    background-color: black;
+    color: var(--vermelho);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.card-img-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: .5rem;
+}
+
+.card:hover .card-img-wrapper img{
+    opacity: .2;
+}
+
+.card-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    opacity: .8;
+    transition: opacity .3s;
+}
+
+.card-info{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    padding: 0.2rem;
+    text-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, .4);
+    transition: all .3s;
+    height: 85%;
+}
+
+
+.card-info h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    color: #fff;
+    padding: 0.2rem;
+    background-color: var(--vermelho);
+    border-radius: 20px;
+}
+
+.card-info h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    background-color: var(--preta);
+    align-items: center;
+}
+
+.card-info p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    background-color: var(--vermelho);
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.card-info button{
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    border: none;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: 3s ease all;
+    margin-right: 10px;
+}
+
+.card-info button:hover{
+    color: var(--vermelho);
+    background-color: black;
+}
+
+.card:hover .card-info{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-info button i {
+    margin-right: 8px;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: url(/img/torcida-flamengo3.jpg) ;
+    width: 100%;
+    height: 200%;
+    border-radius: 10px;
+}
+
+.flex > div{
+    flex: 0 0 180px;
+    margin: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    background: var(--vermelho);
+    color: black;
+    font-family: 'Zen Tokyo Zoo';
+    border-radius: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    font-family: 'Zen Tokyo Zoo';
+    color: var(--vermelho);
+}
+
+.card-time-img{
+    border-radius: 5rem;
+}
+
+.card-time-img img{
+    object-fit: contain;
+    border-radius: 10rem;
+    border: var(--vermelho) solid;
+    padding: 10px 10px 10px 10px;
+    background-color: var(--preta);
+}
+
+
+.card-info-time{
+    bottom: 0;
+    padding: -5px;
+    text-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, .4);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.card-info-time p{
+    background-color: var(--preta);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.card-info-time h2{
+    background-color: var(--vermelho);
+    color: var(--preta);
+}
+
+.desempenho-botao{
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 3s ease all;
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 15px;
+}
+
+
+.desempenho-botao:hover{
+    background-color: black;
+    color: var(--vermelho);
+}
+
+.desempenho-botao i{
+    margin-right: 8px;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: var(--vermelho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: var(--preta);
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: var(--preta);
+    font-size: 1.3rem;
+}
+
+.social-list ul{
+    display: flex;
+}
