@@ -1,7 +1,7 @@
 # Site-Flamengol
-Plataformas de informações e vídeos dos Gols da Equipe de Futebol do Flamengo.
+### Plataformas de informações e vídeos dos Gols da Equipe de Futebol do Flamengo.
 
-Ferramentas:
+### Ferramentas:
 * HTML5
 * CSS3
 * BOOTSTRAP
